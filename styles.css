@@ -1,8 +1,13 @@
 @media only screen   
 and (min-device-width : 320px)   
-and (max-device-width : 480px)  
+/* and (max-device-width : 480px)  */
 { 
     #navbar {
-       display: inline; 
+       height: 100%;
+       width: 25%;
+       position: fixed;
+       background-color: blue;
+       top: 0;
+       left: 0;
     }  
 }
